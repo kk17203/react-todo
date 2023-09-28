@@ -47,7 +47,9 @@ export default function App() {
                 Free Your Mind: Embrace the Open Door
             </h1>
             <NewTodoForm addTodoProp={addTodo} />
-            <h1 className="header todo-header">Blue Pill</h1>
+            <h1 className="header todo-header">
+                Blue Pill <span>(Remaining)</span>
+            </h1>
             <TodoList
                 todos={todos}
                 handleComplete={handleComplete}

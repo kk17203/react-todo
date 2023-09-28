@@ -83,8 +83,20 @@ body {
     color: hsl(200, 100%, 60%);
 }
 
+.todo-header span {
+    color: rgba(255, 255, 255, 0.425);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
 .completed-header {
     color: hsl(0, 100%, 40%);
+}
+
+.completed-header span {
+    color: rgba(255, 255, 255, 0.425);
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
 .list {

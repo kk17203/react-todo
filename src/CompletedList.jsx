@@ -7,7 +7,11 @@ export default function CompletedList({ todos, handleComplete, handleDelete }) {
     return (
         <>
             {completedTodos.length !== 0 && (
-                <h1 className="header completed-header">Red Pill</h1>
+                <div className="completed-header-container">
+                    <h1 className="header completed-header">
+                        Red Pill <span>(Completed)</span>
+                    </h1>
+                </div>
             )}
             <ul className="list">
                 {completedTodos.map((todo) => (
