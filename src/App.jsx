@@ -48,7 +48,7 @@ export default function App() {
             </h1>
             <NewTodoForm addTodoProp={addTodo} />
             <h1 className="header todo-header">
-                Blue Pill <span>(Remaining)</span>
+                Blue Pill <span>(Incomplete)</span>
             </h1>
             <TodoList
                 todos={todos}
